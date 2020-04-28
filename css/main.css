@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     color: #ffffff;
+    background-color: #8fee00;
 }
 
 body {
@@ -27,9 +28,6 @@ body {
     height: 100%;
 }
 
-.intro .text h1 {
-}
-
 .intro .image img {
     height: 100vh;
     width: 100%;
@@ -47,6 +45,16 @@ body {
 
 .overview>.subject {
     flex: 0 25%;
+}
+
+.subject {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.subject:hover {
+    color: #8fee00;
+    text-decoration: none;
 }
 
 .subject .icon {
