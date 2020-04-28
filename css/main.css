@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    color: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.web-container {
+    background-color: #1d1d1d;
+}
+
+.intro {
+    background-color: #474747;
+    height: 100vh;
+    
+}
+
+/* .intro>div {
+    flex: 0 50%;
+} */
+
+.intro .text {
+    padding: 200px 200px 0;
+    height: 100%;
+}
+
+.intro .text h1 {
+}
+
+.intro .image img {
+    height: 100vh;
+    width: 100%;
+    box-sizing:border-box;
+    margin: -20px -20px -20px 0;
+}
+
+.overview {
+    height: 300px;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.overview>.subject {
+    flex: 0 25%;
+}
+
+.subject .icon {
+    font-size: 72pt;
+}
