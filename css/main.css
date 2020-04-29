@@ -79,6 +79,8 @@ body {
     text-align: center;
     font-size: 24pt;
     height: 100%;
+    width: 100%;
+    padding: 0 250px;
 }
 
 .menu>.menu-item {
@@ -89,7 +91,7 @@ body {
     padding: 0 20px;
 }
 
-.info {
+.info, .content {
     padding: 40px 250px;
     min-height: 100vh;
 }
@@ -121,4 +123,18 @@ body {
 .object:hover {
     background-color: #8fee00;
     color: #ffffff;
+}
+
+
+
+/* ////////////////////// */
+/* ///// INFO PAGES ///// */
+/* ////////////////////// */
+
+.title {
+    margin-bottom: 40px;
+}
+
+.section {
+    margin-bottom: 60px;
 }
