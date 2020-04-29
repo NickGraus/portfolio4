@@ -36,27 +36,89 @@ body {
 }
 
 .overview {
-    height: 300px;
     display:flex;
     align-items: center;
     text-align: center;
-    padding: 0 50px;
+    padding: 50px;
 }
 
 .overview>.subject {
     flex: 0 25%;
 }
 
-.subject {
+.overview .subject, .menu-item {
     color: #ffffff;
     text-decoration: none;
 }
 
-.subject:hover {
+.overview .subject:hover {
     color: #8fee00;
     text-decoration: none;
 }
 
-.subject .icon {
+.overview .subject .icon {
     font-size: 72pt;
+}
+
+
+
+/* ///////////////////////// */
+/* ///// SUBJECT PAGES ///// */
+/* ///////////////////////// */
+
+.header {
+    height: 100px;
+    background-color: #8fee00;
+    display:flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 24pt;
+    height: 100%;
+}
+
+.menu>.menu-item {
+    flex: 0 25%;
+}
+
+.menu-item {
+    padding: 0 20px;
+}
+
+.info {
+    padding: 40px 250px;
+    min-height: 100vh;
+}
+
+.web-container.subject .overview {
+    background-color: #474747;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding: 40px 100px;
+}
+
+.web-container.subject .overview>.object {
+    flex: 0 50%;
+}
+
+.object {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 24pt;
+    text-decoration: none;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.object:hover {
+    background-color: #8fee00;
+    color: #ffffff;
 }
