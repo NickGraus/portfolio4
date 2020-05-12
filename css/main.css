@@ -91,9 +91,9 @@ body {
     padding: 0 20px;
 }
 
-.info, .content {
+.content {
     padding: 40px 250px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .web-container.subject .overview {
@@ -137,4 +137,14 @@ body {
 
 .section {
     margin-bottom: 60px;
+}
+
+.return {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.return:hover {
+    color: #8fee00;
+    text-decoration: none;
 }
