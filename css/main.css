@@ -152,3 +152,21 @@ body {
 .external {
     color: #8fee00;
 }
+
+.content img {
+    width:100%;
+}
+
+@media only screen and (min-width: 1080px) {
+    .menu {
+        padding: 0 600px;
+    }
+
+    .content {
+      padding: 40px 600px;
+    }
+
+    .overview {
+        padding: 40px 325px;
+    }
+  }
