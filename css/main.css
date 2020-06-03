@@ -15,7 +15,7 @@ body {
 
 .intro {
     background-color: #474747;
-    height: 100vh;
+    height: 75vh;
     
 }
 
@@ -158,6 +158,10 @@ body {
 }
 
 @media only screen and (min-width: 1080px) {
+    .intro .text {
+        padding: 200px 600px 0;
+    }
+
     .menu {
         padding: 0 600px;
     }
@@ -168,5 +172,9 @@ body {
 
     .overview {
         padding: 40px 325px;
+    }
+
+    .web-container.subject .overview {
+        padding: 40px 600px;
     }
   }
