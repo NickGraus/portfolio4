@@ -60,6 +60,15 @@ body {
     font-size: 72pt;
 }
 
+/* tijdelijk */
+.object.working:hover {
+    background-color: red;
+}
+
+.message {
+    font-size: 10pt;
+}
+
 
 
 /* ///////////////////////// */
