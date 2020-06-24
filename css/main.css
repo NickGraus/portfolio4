@@ -15,13 +15,9 @@ body {
 
 .intro {
     background-color: #474747;
-    height: 100vh;
+    height: 75vh;
     
 }
-
-/* .intro>div {
-    flex: 0 50%;
-} */
 
 .intro .text {
     padding: 200px 200px 0;
@@ -60,6 +56,15 @@ body {
     font-size: 72pt;
 }
 
+/* tijdelijk */
+.object.working:hover {
+    background-color: red;
+}
+
+.message {
+    font-size: 10pt;
+}
+
 
 
 /* ///////////////////////// */
@@ -80,7 +85,6 @@ body {
     font-size: 24pt;
     height: 100%;
     width: 100%;
-    padding: 0 250px;
 }
 
 .menu>.menu-item {
@@ -88,24 +92,18 @@ body {
 }
 
 .menu-item {
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .content {
-    padding: 40px 250px;
-    /* min-height: 100vh; */
+    padding: 40px 40px;
 }
 
 .web-container.subject .overview {
     background-color: #474747;
     display: grid;
-    grid-template-columns: auto auto;
     grid-gap: 20px;
-    padding: 40px 100px;
-}
-
-.web-container.subject .overview>.object {
-    flex: 0 50%;
+    padding: 40px 40px;
 }
 
 .object {
@@ -114,7 +112,7 @@ body {
     font-size: 24pt;
     text-decoration: none;
     height: 200px;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,16 +155,74 @@ body {
     width:100%;
 }
 
-@media only screen and (min-width: 1080px) {
+
+@media only screen and (min-width: 700px) {
+    .intro .text {
+        padding: 200px 100px 0;
+    }
+
     .menu {
-        padding: 0 600px;
+        padding: 0 100px;
+    }
+
+    .menu-item {
+        padding: 0 20px;
     }
 
     .content {
-      padding: 40px 600px;
+      padding: 40px 100px;
     }
 
     .overview {
-        padding: 40px 325px;
+        padding: 40px 100px;
+    }
+
+    .web-container.subject .overview {
+        grid-template-columns: 50% 50%;
+        padding: 40px 100px;
+    }
+  }
+
+@media only screen and (min-width: 1280px) {
+    .intro .text {
+        padding: 200px 300px 0;
+    }
+
+    .menu {
+        padding: 0 300px;
+    }
+
+    .content {
+      padding: 40px 300px;
+    }
+
+    .overview {
+        padding: 40px 300px;
+    }
+
+    .web-container.subject .overview {
+        padding: 40px 300px;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .intro .text {
+        padding: 200px 500px 0;
+    }
+
+    .menu {
+        padding: 0 500px;
+    }
+
+    .content {
+      padding: 40px 500px;
+    }
+
+    .overview {
+        padding: 40px 500px;
+    }
+
+    .web-container.subject .overview {
+        padding: 40px 500px;
     }
   }
